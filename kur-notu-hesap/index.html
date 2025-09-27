@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <!--
     This file is part of yk38spage.github.io.
 
@@ -9,134 +8,225 @@
 
     You should have received a copy of the GNU General Public License along with yk38spage.github.io. If not, see <https://www.gnu.org/licenses/>.
 -->
+<html lang="tr-tr">
 
-<html lang="tr-TR">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta http-equiv="Content-Language" content="tr">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="erciyes üniversitesi, erü, yabancı diller yüksekokulu, ydyo, kur notu hesaplama, kur notu hesap, erü ydyo kur notu hesap, erü ydyo, erciyes üniversitesi yabancı diller yüksekokulu kur notu hesaplama">
-        <meta name="author" content="Yiğithan Karabel yk38spage">
-        <meta name="description" content="Bu site, Erciyes Üniversitesi hazırlık öğrencilerinin kur notlarını hesaplamasına ve kuru geçip geçmediklerini öğrenmelerine yardımcı olur.">
-        <meta property="og:title" content="Erciyes Üniversitesi YDYO Kur Notu Hesaplama">
-        <meta property="og:url" content="https://yk38spage.github.io/kur-notu-hesap/index.html">
-        <meta property="og:description" content="Bu site, Erciyes Üniversitesi hazırlık öğrencilerinin kur notlarını hesaplamasına ve kuru geçip geçmediklerini öğrenmelerine yardımcı olur.">
-        <meta property="twitter:title" content="Erciyes Üniversitesi YDYO Kur Notu Hesaplama">
-        <meta name="twitter:url" content="https://yk38spage.github.io/kur-notu-hesap/index.html">
-        <meta property="twitter:domain" content="yk38spage.github.io">
-        <meta property="twitter:description" content="Bu site, Erciyes Üniversitesi hazırlık öğrencilerinin kur notlarını hesaplamasına ve kuru geçip geçmediklerini öğrenmelerine yardımcı olur.">
-        <meta charset="utf-8">
-        <title>Erciyes Üniversitesi YDYO Kur Notu Hesaplama</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-        <link rel="stylesheet" href="src/css/style.css">
-    </head>
-    <body>
-        <header>
-            <div class="header-elements">
-                <a href="index.html" class="logo">yk38</a>
-                <div class="nav-open" onclick="openNav()"><i class="fa-solid fa-bars"></i></div>
-                <nav class="nav-contanier" id="nav-container">
-                    <div class="nav-close" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></div>
-                    <a href="#">Kur Notu Hesaplama</a>
-                    <a href="https://github.com/yk38spage/yk38spage.github.io">GitHub</a>
-                </nav>
-            </div>
-        </header>
-        <div class="slide" id="slide"></div>
-        <script src="src/js/navbar.js"></script>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Language" content="tr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="erciyes üniversitesi, erü, yabancı diller yüksekokulu, ydyo, kur notu hesaplama, kur notu hesap, erü ydyo kur notu hesap, erü ydyo, erciyes üniversitesi yabancı diller yüksekokulu kur notu hesaplama">
+    <meta name="author" content="Yiğithan Karabel">
+    <meta name="description"
+        content="Bu site, Erciyes Üniversitesi hazırlık öğrencilerinin kur notlarını hesaplamasına ve kuru geçip geçmediklerini öğrenmelerine yardımcı olur.">
+    <meta property="og:title" content="Erciyes Üniversitesi YDYO Kur Notu Hesaplama">
+    <meta property="og:url" content="https://yk38spage.github.io/kur-notu-hesap/index.html">
+    <meta property="og:description"
+        content="Bu site, Erciyes Üniversitesi hazırlık öğrencilerinin kur notlarını hesaplamasına ve kuru geçip geçmediklerini öğrenmelerine yardımcı olur.">
+    <meta property="twitter:title" content="Erciyes Üniversitesi YDYO Kur Notu Hesaplama">
+    <meta name="twitter:url" content="https://yk38spage.github.io/kur-notu-hesap/index.html">
+    <meta property="twitter:domain" content="yk38spage.github.io">
+    <meta property="twitter:description"
+        content="Bu site, Erciyes Üniversitesi hazırlık öğrencilerinin kur notlarını hesaplamasına ve kuru geçip geçmediklerini öğrenmelerine yardımcı olur.">
+    <meta charset="utf-8">
+    <title>Erciyes Üniversitesi YDYO Kur Notu Hesaplama</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Nunito">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="src/css/palette.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
 
-        <div class="content">
-            <div class="block-warning success">
+<body>
+    <header class="header-container">
+        <div class="header">
+            <a href="index.html" class="logo">yk38</a>
+            <!-- <button type="button" class="nav-open"><i class="fa-solid fa-bars"></i></button> -->
+            <nav class="nav-container" id="nav-container">
+                <!-- <button type="button" class="nav-close"><i class="fa-solid fa-xmark"></i></button> -->
+                <a href="https://github.com/yk38spage/yk38spage.github.io">GitHub</a>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div class="notice-box success">
+            <div class="notice-box-content">
                 <i class="fa-solid fa-circle-check"></i>
-                <p>2024-2025 eğitim öğretim yılıyla uyumludur!</p>
+                <p>2025-2026 eğitim öğretim yılıyla uyumludur.</p>
             </div>
-            <div class="block-warning exclamation">
+        </div>
+        <div class="notice-box info">
+            <div class="notice-box-content">
                 <i class="fa-solid fa-circle-exclamation"></i>
-                <p>Bu web sitesinin Erciyes Üniversitesi Yabancı Diller Yüksekokulu ile hiçbir bağlantısı yoktur! Hesaplanan sonuç yalnızca yorum olup kesin bilgi içermemektedir. Kesin bilgi için lütfen YDYO ile <a href="https://ydyo.erciyes.edu.tr/tr/iletisim-bilgileri-ve-iletisim-formu" target="_blank" rel="noopener noreferrer">iletişime geçiniz</a>.</p>
+                <p>Bu web sitesinin Erciyes Üniversitesi Yabancı Diller Yüksekokulu ile hiçbir bağlantısı yoktur!
+                    Hesaplanan sonuç yalnızca yorum olup kesin bilgi içermemektedir. Kesin bilgi için lütfen YDYO ile <a
+                        href="https://ydyo.erciyes.edu.tr/tr/iletisim-bilgileri-ve-iletisim-formu" target="_blank"
+                        rel="noopener noreferrer">iletişime geçiniz</a>.</p>
             </div>
-            <article>
-                <h1>Erciyes Üniversitesi Yabancı Diller Yüksekokulu - Kur Notu Hesaplama</h1>
-                <h2>Bu site, Erciyes Üniversitesi hazırlık öğrencilerinin kur notlarını hesaplamasına ve kuru geçip geçmediklerini öğrenmelerine yardımcı olur.</h2>
-                <section>
-                    <h3>1. aşama - Kur içi (In-Class) notu hesaplama:</h3>
-                    <dl>
-                        <dt><p>1. quiz notu (QUIZ 1 - CB):</p></dt>
-                        <dd><input type="number" min=0 max=100 id="quiz1"></dd>
-                        <dt><p>2. quiz notu (QUIZ 2 - Listening):</p></dt>
-                        <dd><input type="number" min=0 max=100 id="quiz2"></dd>
-                        <dt><p>3. quiz notu (QUIZ 3 - Reading):</p></dt>
-                        <dd><input type="number" min=0 max=100 id="quiz3"></dd>
-                        <dt><p>4. quiz notu (QUIZ 4 - CB):</p></dt>
-                        <dd><input type="number" min=0 max=100 id="quiz4"></dd>
-                        <dt><p>Yazma (In-Class Writing) notu:</p></dt>
-                        <dd><input type="number" min=0 max=100 id="writ"></dd>
-                        <dt><p>Ders içi performans (In-Class Performance) notu:</p></dt>
-                        <dd><input type="number" min=0 max=100 id="perf"></dd>
-                        <dt><p>Video proje (Video Project Assignment) notu:</p></dt>
-                        <dd><input type="number" min=0 max=100 id="vid"></dd>
-                        <dt><p>Online Practise notu:</p></dt>
-                        <dd><input type="number" min=0 max=100 id="onl"></dd>
-                    </dl>
-                </section>
-                <section>
-                    <h3>2. aşama - Kur bitirme sınavı (Level Exit Exam) notu hesaplama:</h3>
-                    <dl>
-                        <dt><p>Use of English notu:</p></dt>
-                        <dd><input type="number" min=0 max=100 id="exit_use"></dd>
-                        <dt><p>Yazma (Writing) notu:</p></dt>
-                        <dd><input type="number" min=0 max=100 id="exit_writ"></dd>
-                        <dt><p>Dinleme (Listening) notu:</p></dt>
-                        <dd><input type="number" min=0 max=100 id="exit_lis"></dd>
-                        <dt><p>Okuma (Reading) notu:</p></dt>
-                        <dd><input type="number" min=0 max=100 id="exit_read"></dd>
-                        <dt><p>Konuşma (Speaking) notu:</p></dt>
-                        <dd><input type="number" min=0 max=100 id="exit_speak"></dd>
-                        <button class="btn" onclick="hesap()">HESAPLA</button>
-                    </dl>
-                </section>
-                <hr class="spr-btn">
-                <section>
-                    <h3>Sonuçlar:</h3>
-                    <div id="summary"><p>Henüz sonuç girilmedi.</p></div>
-                    <div id="gectikaldi"></div>
-                </section>
-            </article>
-            <script src="src/js/kur-hesap.js"></script>
         </div>
 
-        <footer>
-            <div class="row">
-                <div class="footer-col">
+        <article>
+            <h1>Erciyes Üniversitesi Yabancı Diller Yüksekokulu - Kur Notu Hesaplama</h1>
+            <p>Bu site, Erciyes Üniversitesi hazırlık öğrencilerinin kur notlarını hesaplamasına ve kuru geçip
+                geçmediklerini öğrenmelerine yardımcı olur.</p>
+            <section>
+                <h3>1. aşama - Kur içi (In-Class) notu hesaplama:</h3>
+                <dl>
+                    <dt>
+                        <p>1. quiz notu (QUIZ 1 - CB):</p>
+                    </dt>
+                    <dd><input type="number" min=0 max=100 id="quiz1"></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p>2. quiz notu (QUIZ 2 - Listening):</p>
+                    </dt>
+                    <dd><input type="number" min=0 max=100 id="quiz2"></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p>3. quiz notu (QUIZ 3 - Reading):</p>
+                    </dt>
+                    <dd><input type="number" min=0 max=100 id="quiz3"></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p>4. quiz notu (QUIZ 4 - CB):</p>
+                    </dt>
+                    <dd><input type="number" min=0 max=100 id="quiz4"></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p>Proje ve ödev notu:</p>
+                    </dt>
+                    <dd><input type="number" min=0 max=100 id="proj"></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p>Öğrenim Yönetim Sistemi (LMS) ödev notu:</p>
+                    </dt>
+                    <dd><input type="number" min=0 max=100 id="lms"></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p>Ders içi performans (In-Class Performance) notu:</p>
+                    </dt>
+                    <dd><input type="number" min=0 max=100 id="perf"></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p>Sınıf içi yazma (In-Class Writing) notu:</p>
+                    </dt>
+                    <dd><input type="number" min=0 max=100 id="writ"></dd>
+                </dl>
+            </section>
+            <section>
+                <h3>2. aşama - Kur bitirme sınavı (Level Exit Exam) notu hesaplama:</h3>
+                <dl>
+                    <dt>
+                        <p>Use of English notu:</p>
+                    </dt>
+                    <dd><input type="number" min=0 max=100 id="exit_use"></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p>Yazma (Writing) notu:</p>
+                    </dt>
+                    <dd><input type="number" min=0 max=100 id="exit_writ"></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p>Dinleme (Listening) notu:</p>
+                    </dt>
+                    <dd><input type="number" min=0 max=100 id="exit_lis"></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p>Konuşma (Speaking) notu:</p>
+                    </dt>
+                    <dd><input type="number" min=0 max=100 id="exit_speak"></dd>
+                </dl>
+                <dl>
+                    <button class="btn btn-primary" onclick="calculate()"><i
+                            class="fa-solid fa-calculator"></i>Hesapla</button>
+
+                </dl>
+            </section>
+            <section>
+                <h3>Sonuçlar:</h3>
+                <div id="summary">
+                    <p>Henüz sonuç girilmedi.</p>
+                </div>
+                <div id="passedOrNot"></div>
+            </section>
+            <div id="newCalculation"></div>
+        </article>
+        <script src="src/js/main.js"></script>
+    </div>
+    <footer class="footer-container">
+        <div class="footer-main-container">
+            <div class="footer">
+                <div class="col">
                     <h4>Hakkımda</h4>
                     <ul>
-                        <li><img src="images/main/yk38sPageLogo-transparent.png" alt="yk38" style="max-width: 300px;"/></li>
-                        <li>Ben Yiğithan Karabel. 20 yaşındayım. Erciyes Üniversitesi Yazılım Mühendisliği 1. sınıf öğrencisiyim. Web geliştirme üzerine birkaç aydır çalışıyorum.</li>
+                        <li><img src="images/main/yk38sPageLogo-transparent.png" alt="yk38">
+                        </li>
+                        <li>Ben Yiğithan Karabel. 21 yaşındayım. Erciyes Üniversitesi Yazılım Mühendisliği 2. sınıf
+                            öğrencisiyim. Web geliştirme üzerine bir süredir çalışıyorum.</li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="col">
                     <h4>Hızlı Erişim</h4>
                     <ul>
-                        <li><a href="https://github.com/yk38spage/yk38spage.github.io/issues" rel="nofollow" target="_blank">Hata Bildirimi</a></li>
+                        <li><a href="https://github.com/yk38spage/yk38spage.github.io/issues" rel="nofollow"
+                                target="_blank">Hata Bildirimi</a></li>
+                        <li><a href="https://fragbox.io">[Yakında] Fragbox</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="col">
                     <h4>Sosyal Medya</h4>
-                    <div class="footer-social">
-                        <a href="https://www.youtube.com/@yigithankarabel" title="YouTube - Yiğithan Karabel" rel="nofollow" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="https://www.instagram.com/yigithankarabel" title="Instagram - Yiğithan Karabel" rel="nofollow" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://x.com/yigithankarabel" title="X - Yiğithan Karabel" rel="nofollow" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="https://www.linkedin.com/in/yi%C4%9Fithan-karabel-33129b296/" title="LinkedIn - Yiğithan Karabel" rel="nofollow" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/yk38spage/" title="GitHub - yk38spage" rel="nofollow" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://discord.gg/uFfntxw9bt" title="Discord - yk38's Server" rel="nofollow" target="_blank"><i class="fa-brands fa-discord"></i></a>
-                    </div>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.youtube.com/@yigithankarabel" class="btn-circle btn-secondary"
+                                title="YouTube - Yiğithan Karabel" rel="nofollow" target="_blank"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/yigithankarabel" class="btn-circle btn-secondary"
+                                title="Instagram - Yiğithan Karabel" rel="nofollow" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/yigithankarabel" class="btn-circle btn-secondary"
+                                title="X - Yiğithan Karabel" rel="nofollow" target="_blank"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/yi%C4%9Fithan-karabel-33129b296/"
+                                class="btn-circle btn-secondary" title="LinkedIn - Yiğithan Karabel" rel="nofollow"
+                                target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/yk38spage/" class="btn-circle btn-secondary"
+                                title="GitHub - yk38spage" rel="nofollow" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://discord.gg/uFfntxw9bt" class="btn-circle btn-secondary"
+                                title="Discord - yk38's Server" rel="nofollow" target="_blank"><i
+                                    class="fa-brands fa-discord"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <hr style="opacity: 0.5;">
-            <div class="copyright">
-                <p>Copyright &#169; 2024 Yiğithan Karabel yk38spage</p>
-                <p>Bu web sitesi projesi, GNU Genel Kamu Lisansı Sürüm 3 ve dahası kapsamında lisanslanmıştır. Daha fazla bilgi için lütfen bu sitenin <a href="https://github.com/yk38spage/yk38spage.github.io/blob/main/LICENSE">GitHub</a> sayfasını ziyaret edin.</p>
-            </div>
-        </footer>
-    </body>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>Copyright &#0169; 2025 Yiğithan Karabel</p>
+            <p>Bu web sitesi projesi, GNU Genel Kamu Lisansı Sürüm 3 ve dahası kapsamında lisanslanmıştır. Daha fazla
+                bilgi için lütfen bu sitenin <a href="https://github.com/yk38spage/yk38spage.github.io/blob/main/LICENSE"
+                    target="_blank" rel="noopener noreferrer">GitHub</a> sayfasını ziyaret edin.</p>
+        </div>
+    </footer>
+</body>
+
 </html>
