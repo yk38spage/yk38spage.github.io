@@ -24,7 +24,7 @@ footer {
     --background: hsl(200, 65%, 10%);
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
         --bg-dark: hsl(0, 0%, 0%);
         --bg-normal: hsl(0, 0%, 5%);
@@ -33,7 +33,7 @@ footer {
         --text-muted: hsl(0, 0%, 70%);
         --border: hsl(0, 0%, 30%);
     }
-} */
+}
 
 .notice-box {
     --notice-info: hsl(216, 98%, 50%);
@@ -49,7 +49,7 @@ footer {
     --notice-error-text: hsl(0, 0%, 95%);
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     .notice-box {
         --notice-info: hsl(216, 80%, 40%);
         --notice-info-text: hsl(0, 0%, 90%);
@@ -63,7 +63,7 @@ footer {
         --notice-error: hsl(342, 86%, 40%);
         --notice-error-text: hsl(0, 0%, 95%);
     }
-} */
+}
 
 input,
 select,
@@ -79,7 +79,7 @@ textarea,
     --input-autofill: hsl(215, 100%, 90%);
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     input,
     select,
     textarea,
@@ -93,7 +93,7 @@ textarea,
         --input-border-highlight: hsl(0, 0%, 40%);
         --input-autofill: hsl(200, 30%, 20%);
     }
-} */
+}
 
 button,
 input[type="submit"],
@@ -134,7 +134,7 @@ h4 {
     --link-hover: hsl(211, 95%, 45%);
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     button,
     input[type="submit"],
     a {
@@ -169,4 +169,4 @@ h4 {
         --link: hsl(211, 90%, 60%);
         --link-hover: hsl(211, 90%, 55%);
     }
-} */
+}
